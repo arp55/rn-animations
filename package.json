@@ -1,0 +1,56 @@
+{
+  "name": "Animations",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "connect": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:8097 tcp:8097"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-masked-view/masked-view": "^0.2.4",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "@turf/turf": "^6.3.0",
+    "d3": "^6.7.0",
+    "d3-interpolate-path": "^2.2.3",
+    "d3-scale": "^3.3.0",
+    "d3-shape": "^2.1.0",
+    "expo-av": "^9.1.2",
+    "expo-linear-gradient": "^9.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-gesture-handler": "^2.1.0",
+    "react-native-maps": "^0.28.0",
+    "react-native-reanimated": "^1.13.3",
+    "react-native-redash": "^16.0.11",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.1.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-unimodules": "^0.13.3",
+    "react-native-vector-icons": "^8.1.0",
+    "svg-path-properties": "^1.0.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/runtime": "^7.13.10",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.24.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "prettier": "2.2.1",
+    "react-devtools": "^4.9.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
